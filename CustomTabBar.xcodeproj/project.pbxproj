@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5CB10C042BF351BB006AD6C5 /* CustomTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB10C032BF351BB006AD6C5 /* CustomTabBarApp.swift */; };
-		5CB10C062BF351BB006AD6C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB10C052BF351BB006AD6C5 /* ContentView.swift */; };
 		5CB10C082BF351BD006AD6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB10C072BF351BD006AD6C5 /* Assets.xcassets */; };
 		5CB10C0B2BF351BD006AD6C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB10C0A2BF351BD006AD6C5 /* Preview Assets.xcassets */; };
-		5CB10C152BF351BD006AD6C5 /* CustomTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB10C142BF351BD006AD6C5 /* CustomTabBarTests.swift */; };
-		5CB10C1F2BF351BD006AD6C5 /* CustomTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB10C1E2BF351BD006AD6C5 /* CustomTabBarUITests.swift */; };
-		5CB10C212BF351BD006AD6C5 /* CustomTabBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB10C202BF351BD006AD6C5 /* CustomTabBarUITestsLaunchTests.swift */; };
+		5CB10C2E2BF35225006AD6C5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB10C2D2BF35225006AD6C5 /* Model.swift */; };
+		5CB10C302BF35261006AD6C5 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB10C2F2BF35261006AD6C5 /* TabBar.swift */; };
+		5CB10C322BF35280006AD6C5 /* TabPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB10C312BF35280006AD6C5 /* TabPosition.swift */; };
+		5CB10C342BF352A2006AD6C5 /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB10C332BF352A2006AD6C5 /* TabShape.swift */; };
+		5CB10C362BF352C7006AD6C5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB10C352BF352C7006AD6C5 /* HomeView.swift */; };
+		5CB10C392BF352DD006AD6C5 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB10C382BF352DD006AD6C5 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +38,16 @@
 /* Begin PBXFileReference section */
 		5CB10C002BF351BB006AD6C5 /* CustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB10C032BF351BB006AD6C5 /* CustomTabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarApp.swift; sourceTree = "<group>"; };
-		5CB10C052BF351BB006AD6C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5CB10C072BF351BD006AD6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CB10C0A2BF351BD006AD6C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5CB10C102BF351BD006AD6C5 /* CustomTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CB10C142BF351BD006AD6C5 /* CustomTabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarTests.swift; sourceTree = "<group>"; };
 		5CB10C1A2BF351BD006AD6C5 /* CustomTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CB10C1E2BF351BD006AD6C5 /* CustomTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarUITests.swift; sourceTree = "<group>"; };
-		5CB10C202BF351BD006AD6C5 /* CustomTabBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5CB10C2D2BF35225006AD6C5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5CB10C2F2BF35261006AD6C5 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		5CB10C312BF35280006AD6C5 /* TabPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPosition.swift; sourceTree = "<group>"; };
+		5CB10C332BF352A2006AD6C5 /* TabShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
+		5CB10C352BF352C7006AD6C5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5CB10C382BF352DD006AD6C5 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				5CB10C022BF351BB006AD6C5 /* CustomTabBar */,
-				5CB10C132BF351BD006AD6C5 /* CustomTabBarTests */,
-				5CB10C1D2BF351BD006AD6C5 /* CustomTabBarUITests */,
 				5CB10C012BF351BB006AD6C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,7 +97,11 @@
 			isa = PBXGroup;
 			children = (
 				5CB10C032BF351BB006AD6C5 /* CustomTabBarApp.swift */,
-				5CB10C052BF351BB006AD6C5 /* ContentView.swift */,
+				5CB10C2D2BF35225006AD6C5 /* Model.swift */,
+				5CB10C2F2BF35261006AD6C5 /* TabBar.swift */,
+				5CB10C312BF35280006AD6C5 /* TabPosition.swift */,
+				5CB10C332BF352A2006AD6C5 /* TabShape.swift */,
+				5CB10C372BF352CC006AD6C5 /* View */,
 				5CB10C072BF351BD006AD6C5 /* Assets.xcassets */,
 				5CB10C092BF351BD006AD6C5 /* Preview Content */,
 			);
@@ -110,21 +116,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5CB10C132BF351BD006AD6C5 /* CustomTabBarTests */ = {
+		5CB10C372BF352CC006AD6C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5CB10C142BF351BD006AD6C5 /* CustomTabBarTests.swift */,
+				5CB10C352BF352C7006AD6C5 /* HomeView.swift */,
+				5CB10C382BF352DD006AD6C5 /* AccountView.swift */,
 			);
-			path = CustomTabBarTests;
-			sourceTree = "<group>";
-		};
-		5CB10C1D2BF351BD006AD6C5 /* CustomTabBarUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5CB10C1E2BF351BD006AD6C5 /* CustomTabBarUITests.swift */,
-				5CB10C202BF351BD006AD6C5 /* CustomTabBarUITestsLaunchTests.swift */,
-			);
-			path = CustomTabBarUITests;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CB10C062BF351BB006AD6C5 /* ContentView.swift in Sources */,
+				5CB10C322BF35280006AD6C5 /* TabPosition.swift in Sources */,
+				5CB10C2E2BF35225006AD6C5 /* Model.swift in Sources */,
 				5CB10C042BF351BB006AD6C5 /* CustomTabBarApp.swift in Sources */,
+				5CB10C362BF352C7006AD6C5 /* HomeView.swift in Sources */,
+				5CB10C392BF352DD006AD6C5 /* AccountView.swift in Sources */,
+				5CB10C302BF35261006AD6C5 /* TabBar.swift in Sources */,
+				5CB10C342BF352A2006AD6C5 /* TabShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CB10C152BF351BD006AD6C5 /* CustomTabBarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CB10C1F2BF351BD006AD6C5 /* CustomTabBarUITests.swift in Sources */,
-				5CB10C212BF351BD006AD6C5 /* CustomTabBarUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
